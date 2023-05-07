@@ -13,8 +13,11 @@ function love(){
     secondName.innerHTML = loveName;
     lovePercent.innerHTML = percent;
 
-    if( randNo < 70){
-        body.style.background = "#ffa1a1";
+    if( randNo < 60){
+        lovePercent.style.color = "#ffa1a1";
+    }
+    else{
+        lovePercent.style.color = "rgb(144 255 117)";
     }
 }
 
