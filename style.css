@@ -1,1 +1,26 @@
+* {
+    color: white;
+}
 
+body {
+    background: url('./assets/images/love.webp') no-repeat center;
+
+    background-size: cover;
+}
+
+section{
+    padding: 40px 0;
+}
+
+.regenerate {
+    background: #ff7783 ;
+    color: white ;   
+    margin-top: 60px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.regenerate:hover{
+    background-color: #ff7783;
+    transform: scale(1.05);
+}
