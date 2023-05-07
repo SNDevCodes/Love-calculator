@@ -7,7 +7,7 @@ function love(){
     let loveName = prompt("Enter your Aashiq name");
     let body = document.querySelector('body');
     let randNo = Math.random();
-    randNo = Math.floor(randNo * 100);
+    randNo = Math.floor((randNo * 100)+1);
     let percent = randNo + "%";
     firstName.innerHTML = yourName;
     secondName.innerHTML = loveName;
